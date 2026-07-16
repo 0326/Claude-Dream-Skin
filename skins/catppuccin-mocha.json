@@ -1,0 +1,43 @@
+{
+  "name": "Catppuccin Mocha",
+  "extends": "default",
+  "mode": "dark",
+  "variables": {
+    "--bg-000": "237 16% 23%",
+    "--bg-100": "240 21% 15%",
+    "--bg-200": "240 21% 18%",
+    "--bg-300": "237 16% 23%",
+    "--bg-400": "234 13% 31%",
+    "--bg-500": "233 12% 39%",
+    "--text-000": "226 64% 88%",
+    "--text-100": "226 64% 88%",
+    "--text-200": "227 35% 80%",
+    "--text-300": "228 24% 72%",
+    "--text-400": "230 13% 55%",
+    "--text-500": "231 11% 47%",
+    "--border-100": "233 12% 39%",
+    "--border-200": "234 13% 31%",
+    "--border-300": "237 16% 23%",
+    "--border-400": "240 21% 20%",
+    "--accent-main-000": "267 84% 81%",
+    "--accent-main-100": "267 70% 74%",
+    "--accent-main-200": "267 60% 66%",
+    "--accent-secondary-000": "217 92% 76%",
+    "--accent-secondary-100": "217 80% 70%",
+    "--accent-secondary-200": "217 70% 62%",
+    "--accent-pro-000": "23 92% 75%",
+    "--accent-pro-100": "23 80% 68%",
+    "--accent-pro-200": "23 70% 60%",
+    "--danger-000": "343 81% 75%",
+    "--danger-100": "343 70% 68%",
+    "--danger-200": "343 60% 60%",
+    "--oncolor-100": "240 21% 12%",
+    "--claude-background-color": "#1E1E2E",
+    "--claude-foreground-color": "#CDD6F4"
+  },
+  "customCss": [
+    "body { background-color: hsl(var(--bg-100)) !important; }",
+    "[style*='#faf9f5'], [style*='#FAF9F5'] { background-color: hsl(var(--bg-100)) !important; }",
+    "::selection { background-color: hsla(267, 84%, 81%, 0.3); }"
+  ]
+}

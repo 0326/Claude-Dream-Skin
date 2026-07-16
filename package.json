@@ -1,0 +1,16 @@
+{
+  "name": "claude-dream-skin",
+  "version": "0.1.0",
+  "description": "Claude Desktop 换肤工具:本机 CDP 注入、不改官方安装包、一键可还原",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node injector/index.js",
+    "launch": "bash macos/launcher.sh",
+    "themes": "node injector/index.js --list",
+    "extract-vars": "node injector/extract-vars.js"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Solarized Light",
+  "extends": "default",
+  "mode": "light",
+  "variables": {
+    "--bg-000": "44 100% 98%",
+    "--bg-100": "44 87% 94%",
+    "--bg-200": "46 42% 88%",
+    "--bg-300": "45 35% 84%",
+    "--bg-400": "45 28% 78%",
+    "--bg-500": "45 22% 72%",
+    "--text-000": "192 81% 14%",
+    "--text-100": "194 25% 35%",
+    "--text-200": "196 13% 45%",
+    "--text-300": "180 7% 60%",
+    "--text-400": "180 9% 70%",
+    "--text-500": "44 11% 80%",
+    "--border-100": "45 22% 72%",
+    "--border-200": "45 28% 78%",
+    "--border-300": "45 35% 84%",
+    "--border-400": "46 42% 88%",
+    "--accent-main-000": "205 69% 49%",
+    "--accent-main-100": "205 69% 44%",
+    "--accent-main-200": "205 69% 38%",
+    "--accent-secondary-000": "175 59% 40%",
+    "--accent-secondary-100": "175 59% 35%",
+    "--accent-secondary-200": "175 59% 30%",
+    "--accent-pro-000": "237 43% 60%",
+    "--accent-pro-100": "237 43% 54%",
+    "--accent-pro-200": "237 43% 48%",
+    "--danger-000": "1 71% 52%",
+    "--danger-100": "1 71% 46%",
+    "--danger-200": "1 71% 40%",
+    "--oncolor-100": "44 87% 96%",
+    "--claude-background-color": "#FDF6E3",
+    "--claude-foreground-color": "#657B83"
+  },
+  "customCss": [
+    "body { background-color: hsl(var(--bg-100)) !important; }",
+    "[style*='#faf9f5'], [style*='#FAF9F5'] { background-color: hsl(var(--bg-100)) !important; }",
+    "::selection { background-color: hsla(205, 69%, 49%, 0.25); }"
+  ]
+}

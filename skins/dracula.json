@@ -1,0 +1,43 @@
+{
+  "name": "Dracula",
+  "extends": "default",
+  "mode": "dark",
+  "variables": {
+    "--bg-000": "232 14% 31%",
+    "--bg-100": "231 15% 18%",
+    "--bg-200": "231 15% 22%",
+    "--bg-300": "232 14% 31%",
+    "--bg-400": "232 14% 38%",
+    "--bg-500": "230 14% 45%",
+    "--text-000": "60 30% 96%",
+    "--text-100": "60 30% 96%",
+    "--text-200": "60 20% 88%",
+    "--text-300": "225 27% 72%",
+    "--text-400": "225 27% 60%",
+    "--text-500": "225 27% 51%",
+    "--border-100": "232 14% 40%",
+    "--border-200": "232 14% 34%",
+    "--border-300": "232 14% 28%",
+    "--border-400": "231 15% 24%",
+    "--accent-main-000": "265 89% 78%",
+    "--accent-main-100": "265 75% 72%",
+    "--accent-main-200": "265 65% 64%",
+    "--accent-secondary-000": "191 97% 77%",
+    "--accent-secondary-100": "191 85% 70%",
+    "--accent-secondary-200": "191 75% 62%",
+    "--accent-pro-000": "326 100% 74%",
+    "--accent-pro-100": "326 85% 68%",
+    "--accent-pro-200": "326 75% 60%",
+    "--danger-000": "0 100% 67%",
+    "--danger-100": "0 90% 60%",
+    "--danger-200": "0 80% 52%",
+    "--oncolor-100": "231 15% 14%",
+    "--claude-background-color": "#282A36",
+    "--claude-foreground-color": "#F8F8F2"
+  },
+  "customCss": [
+    "body { background-color: hsl(var(--bg-100)) !important; }",
+    "[style*='#faf9f5'], [style*='#FAF9F5'] { background-color: hsl(var(--bg-100)) !important; }",
+    "::selection { background-color: hsla(265, 89%, 78%, 0.3); }"
+  ]
+}
